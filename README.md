@@ -10,22 +10,23 @@
 
 - **程序结构**
 > 
-1. This is a maven project.
-2. 代码放到src/main/java中，而测试用例或单元一般放到src/test/java. 
-3. pom.xml中写的是项目用到的jar包依赖关系等。maven通过编译pom.xml自动构建项目。
-4. src/main/java/InterestCalculatorTools.java ：工具函数均放此，如利息计算器，罚息计算器，基础逾期管理费
-5. src/main/java/InterestCalculatorToolsTest.java :用来临时测试4的函数。
-6. src/main/java/InterestCalculatorUnpay.java :主要运行的java文件（条件： 截止至今日仍未还款的）
+>1. This is a maven project.
+>2. 代码放到src/main/java中，而测试用例或单元一般放到src/test/java. 
+>3. pom.xml中写的是项目用到的jar包依赖关系等。maven通过编译pom.xml自动构建项目。
+>4. src/main/java/InterestCalculatorTools.java ：工具函数均放此，如利息计算器，罚息计算器，基础逾期管理费
+>5. src/main/java/InterestCalculatorToolsTest.java :用来临时测试4的函数。
+>6. src/main/java/InterestCalculatorUnpay.java :主要运行的java文件（条件： 截止至今日仍未还款的）
+>
 
 - **使用说明**
 >
-1. 运行src/main/java/InterestCalculatorUnpay.java文件
-2. 输入框逐行输入：
-	借款日期（YYYY-MM-DD)
-	应还款日期（YYYY-MM-DD)
-	本金
-	利率
-
+>1. 运行src/main/java/InterestCalculatorUnpay.java文件
+>2. 输入框逐行输入：
+>	借款日期（YYYY-MM-DD)
+>	应还款日期（YYYY-MM-DD)
+>	本金
+>	利率
+>
 
     2016-04-05
     2016-08-01
